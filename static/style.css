@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    /* background-color: #435675ab; */
+    background-color: #045556ce;
+    margin: 30px 0px;
+}
+
+.navigation{
+    width: 46.875rem;
+    text-align: center;
+    padding: 1px 2px;
+    margin: 25px auto;
+    background-color: white;
+    border: 2px solid #8B1874;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+.section-1-today-tasks{
+    width: 11.25rem;
+    height: 2rem;
+    margin: 5px;
+    line-height: 2;
+    padding: 3px;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    border-radius: 5px;
+    color: #F0EEE4;
+    background-color: #8b1874c2;
+}
+
+.section-2-all-tasks{
+    width: 11.25rem;
+    height: 2rem;
+    margin: 5px;
+    line-height: 2;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    border-radius: 5px;
+}
+
+.section-3-select{
+    width: 11.25rem;
+    height: 2rem;
+    margin: 5px;
+    line-height: 2;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    border-radius: 5px;
+}
+
+.navigation-inner-section-divider{
+    height: 30px;
+    width: 1px;
+    background-color: brown;
+}
+
+.navigation-divider{
+    width: 48.375em;
+    margin: 5px auto;
+}
+
+.task-type-section{
+    text-align: center;
+    width: 26rem;
+    height: 1.8rem;
+    margin: 50px auto;
+    padding: 10px;
+    /* background-color: #098765; */
+    background-color: #8b1874c2;
+    color: #F0EEE4;
+    border-radius: 5px;
+    font-size: larger;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+}
+
+.task-section{
+    width: 26rem;
+    height: 3rem;
+    margin: auto;
+    padding: 10px;
+    /* background-color: #045456; */
+    background-color: rgba(255, 255, 255, 0.719);
+    box-shadow: 5px 5px rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.done-checkbox{
+    position: relative;
+    left: 20px;
+    min-height: 18px;
+    min-width: 18px;
+}
+
+.input-task{
+    height: 2.9em;
+    width: 26em;
+}
+
+.add-new-task-btn{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    font-size: 32px;
+    line-height: 32px;
+    border: 2px solid #5c8984f0;
+    background-color: #47A992;
+    color: white;
+}

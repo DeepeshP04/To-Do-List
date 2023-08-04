@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="section-1-today-tasks">Today's Tasks</div>
+            <hr class="navigation-inner-section-divider">
+            <div class="section-2-all-tasks">All Tasks</div>
+            <hr class="navigation-inner-section-divider">
+            <div class="section-3-select">
+                <select class="section-3-option-container">
+                    <option value="0" selected="selected">Work</option>
+                    <option value="1">Personal</option>
+                    <option value="2">Daily</option>
+                </select>
+            </div>
+        </nav>
+        <hr class="navigation-divider">
+    </header>
+
+    <main>
+        <div class="task-type-section">
+            Today's Tasks
+        </div>
+
+        <div>
+            <div class="task-section">
+                <input type="checkbox" class="done-checkbox">
+                <p>Task 1</p>
+                <p>Duration</p>
+            </div>
+    
+            <div class="task-section">
+                <input type="checkbox" class="done-checkbox">
+                <p>Task 1</p>
+                <p>Duration</p>
+
+            </div>
+
+            <div class="task-section">
+                <input type="checkbox" class="done-checkbox">
+                <p>Task 1</p>
+                <p>Duration</p>
+            </div>
+    
+            <div class="task-section">
+                <input type="checkbox" class="done-checkbox">
+                <p>Task 1</p>
+                <p>Duration</p>
+            </div>
+        
+            <div class="task-section">
+                <input type="checkbox" class="done-checkbox">
+                <p>Task 1</p>
+                <p>Duration</p>
+            </div>
+
+            <form class="task-section add-new-task" action="/" method="post">
+                <input class="input-task" type="text" placeholder="Type New Task">
+                <button class="add-new-task-btn" type="submit">+</button>
+            </form>
+        </div>
+    
+    </main>
+</body>
+</html>
